@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* Reset margin and padding for clean layout */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px; /* Add spacing inside the bar */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and tabs */
+}
+
+/* Adjust the logo position */
+nav .logo {
+    height: 40px; /* Adjust the logo size */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: auto; /* Push tabs to the right */
+    margin-left: 0; /* Ensure logo stays at the far left */
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Horizontal layout for tabs */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Spacing between tabs */
+}
+
+nav ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
